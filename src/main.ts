@@ -32,6 +32,7 @@ function onError(error: GeolocationPositionError) {
   document.getElementById("output").innerText = propatiesString;
 }
 
+// こちらの座標は東京ドイツ村周辺
 const target = {
   latitude: 35.40564021220976,
   longitude: 140.0539013101807,
